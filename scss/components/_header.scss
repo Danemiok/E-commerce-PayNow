@@ -1,0 +1,72 @@
+@import 'mainColor';
+
+/* HEADER STYLING */
+.navbar {
+    border-radius:16px;
+    min-height: 14vh;
+    color: $lead;
+    font-weight: 600;
+}
+
+.navbar .navlist a:hover{
+    color: $gold-finger;
+}
+.navbar .navlist a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: $gold-finger;
+    display: block;
+    transition: 0.3s linear;
+    border-radius: 3px;
+}
+.navbar .navlist a:hover::after{
+    width: 100%;
+}
+.logo {
+    width: 100px;
+}
+
+.btn {
+    display: inline-block;
+    padding: .9rem 2rem;
+    background: $gold-finger;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    color: $pure-white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 1px;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover {
+    background: $lead;
+
+}
+
+.cart-icon {
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.cart-icon .cart-value {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    font-size: .85rem;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    background: $gold-finger;
+    color: $lead;
+    text-align: center;
+    line-height: 20px;
+}
+
+.desktop-action .hamburger {
+    font-size: 1.5rem;
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
