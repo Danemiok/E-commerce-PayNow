@@ -1,6 +1,10 @@
+@import 'mainColor';
+
+
 /* SECTIONS STYLING */
 .hero-section {
     min-height: calc(100vh - 14vh);
+    padding: 120px 20px;
 }
 
 .content,
@@ -32,7 +36,7 @@ p {
 }
 
 .social-icon {
-    background: $pure-white;
+    background: $hint-yellow;
     width: 3rem;
     aspect-ratio: 1;
     border-radius: 1rem;
@@ -53,4 +57,57 @@ p {
 .service-cart h3 {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+}
+
+.socials-container a{
+    background: $hint-yellow;
+    padding: .8rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.socials-container a svg {
+    height: 24px;
+}
+.socials-container a::before {
+    content: attr(data-social);
+    position: absolute;
+    background: var(--accent-color);
+    color: $pure-white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.7em 1rem;
+    border-radius: 100px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    transform: translateY(-30px) rotate(25deg);
+    opacity: 0;
+    transition: 200ms ease;
+}
+
+.socials-container a:hover{
+    background: var(--accent-color);
+    fill: $pure-white;
+}
+.socials-container a::after{
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid var(--accent-color);
+    transform: translateY(0) rotate(25deg);
+    opacity: 0;
+}
+
+.socials-container a:hover::before {
+    transform: translateY(-65px) rotate(0);
+    opacity: 1;
+}
+.socials-container a:hover::after {
+    transform: translateY(-42px) rotate(0);
+    opacity: 1;
 }

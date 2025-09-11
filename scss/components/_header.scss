@@ -6,9 +6,17 @@
     min-height: 14vh;
     color: $lead;
     font-weight: 600;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: $pure-white;
+    border-bottom: 0.8px solid rgba(128, 128, 128, 0.458);
+    z-index: 999;
 }
 
-.navbar .navlist a:hover{
+.navbar .navlist a:hover,
+.navbar .navlist a.active{
     color: $gold-finger;
 }
 .navbar .navlist a::after{
@@ -69,4 +77,22 @@
 
 .mobile-menu {
     display: none;
+}
+
+
+.navbar-toggle {
+    display: none;
+    background: transparent;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 26px;
+    height: 2px;
+    margin: 6px auto;
+    background: $lead;
+    transition: all 0.3s ease-in-out;
 }
