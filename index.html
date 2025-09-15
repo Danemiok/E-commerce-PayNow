@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,0&" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="dist/main.min.css">
     <title>Pay Now</title>
@@ -25,6 +27,20 @@
                 <li><a href="">About Us</a></li>
                 <li><a href="">Contacts</a></li>
             </ul>
+            <div class="search-bar ">
+                <select class="sel">
+                    <option>All</option>
+                    <option>Dior</option>
+                    <option>Chanel</option>
+                    <option>Versace</option>
+                </select>
+
+                <input type="text" placeholder="Search products">
+
+                <button type="submit">
+                    <i class="fa-solid fa-search"></i>
+                </button>
+            </div>
 
             <div class="desktop-action flex gap-2">
                 <a href="#" class="cart-icon">
@@ -85,7 +101,11 @@
                                 </svg>
                             </a>
                             <a data-social="Telegram" style="--accent-color: #26A5E4;" href="#">
-                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Telegram</title><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <title>Telegram</title>
+                                    <path
+                                        d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+                                </svg>
                             </a>
                             <a data-social="Instagram" style="--accent-color: #FF0069;" href="#">
                                 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -110,6 +130,99 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h3 class="h3">Our Services</h3>
+                    <h2>How does it work?</h2>
+                </div>
+
+                <div class="flex text-center mt-4">
+                    <div class="service-cart">
+                        <div class="image-container">
+                            <i class="fas fa-shopping-cart iconI"></i>
+                        </div>
+                        <h3>Easy to Order</h3>
+                        <p>
+                            Order your favorite perfume in a few easy steps.
+                        </p>
+                    </div>
+                    <div class="service-cart">
+                        <div class="image-container">
+                            <i class="fas fa-truck iconI"></i>
+                        </div>
+                        <h3>Fast Delivery</h3>
+                        <p>
+                            We ensure your perfume arrives quickly and safely.
+                        </p>
+                    </div>
+                    <div class="service-cart">
+                        <div class="image-container">
+                            <i class="fas fa-medal iconI"></i>
+                        </div>
+                        <h3>best-quality</h3>
+                        <p>
+                            We offer 100% original perfumes fragrance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper bg-service pd">
+                <div class="text-center ">
+                    <h3>Shop By Type</h3>
+                </div>
+
+                <div class="flex text-center mt-4 gap-3">
+                    <div class="service-cart bg-cart">
+                        <div class="type-item">
+                            <span class="material-symbols-outlined size-icon">
+                                fragrance
+                            </span>
+                            <h3><a href="">Testers</a></h3>
+                        </div>
+                        <div class="paras">
+                            <p>Full-size products without the fancy packaging</p>
+                        </div>
+                    </div>
+                    <div class="service-cart bg-cart ">
+                        <div class="shop-type ">
+                            <span class="material-symbols-outlined size-icon">
+                                local_mall
+                            </span>
+                            <h3><a href="">Travel Size</a></h3>
+                        </div>
+                        <div>
+                            <p>Travel-sized scents, perfect for on-the-go</p>
+                        </div>
+                    </div>
+                    <div class="service-cart bg-cart">
+                        <div class="shop-type">
+                            <span class="material-symbols-outlined size-icon">
+                                featured_seasonal_and_gifts
+                            </span>
+                            <h3><a href="">Gift Sets</a></h3>
+                        </div>
+                        <div>
+                            <p>Beautifully packaged sets that make for a perfect gift</p>
+                        </div>
+                    </div>
+                    <div class="service-cart bg-cart">
+                        <div class="shop-type">
+                            <span class="material-symbols-outlined size-icon">
+                                water_bottle
+                            </span>
+                            <h3><a href="">Samples</a></h3>
+                        </div>
+                        <div>
+                            <p>Discover your perfect match with samples</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
     </main>

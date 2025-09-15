@@ -2,7 +2,7 @@
 
 /* HEADER STYLING */
 .navbar {
-    border-radius:16px;
+    border-radius: 16px;
     min-height: 14vh;
     color: $lead;
     font-weight: 600;
@@ -17,10 +17,11 @@
 }
 
 .navbar .navlist a:hover,
-.navbar .navlist a.active{
+.navbar .navlist a.active {
     color: $gold-finger;
 }
-.navbar .navlist a::after{
+
+.navbar .navlist a::after {
     content: '';
     width: 0;
     height: 3px;
@@ -29,9 +30,11 @@
     transition: 0.3s linear;
     border-radius: 3px;
 }
-.navbar .navlist a:hover::after{
+
+.navbar .navlist a:hover::after {
     width: 100%;
 }
+
 .logo {
     width: 100px;
 }
@@ -96,4 +99,43 @@
     margin: 6px auto;
     background: $lead;
     transition: all 0.3s ease-in-out;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: $pure-white;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    border: 1px solid $gold-finger;
+    width: 30rem;
+}
+
+.search-bar select {
+    width: 15%;
+    padding: 1rem 0;
+    background: $eye-ball;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.search-bar button {
+    background: $gold-finger;
+    border: none;
+    padding:  0.960rem;
+    cursor: pointer;
+}
+
+.search-bar button i {
+    font-size: 1.3rem;
+    color: $pure-white;
 }

@@ -30,9 +30,9 @@ li {
 }
 
 .wrapper {
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
-    padding: 1.5rem;
+    padding: 1.5rem 3rem;
 }
 
 .img {
@@ -47,9 +47,12 @@ li {
     padding-top: 10rem;
 }
 
+.text-center .h3{
+    color: $gold-finger;
+}
 .text-center {
     text-align: center;
-    /* color: var(--gold-finger); */
+    
 }
 
 .mt-4 {
@@ -65,4 +68,11 @@ li {
 
 .mt-one-half{
     margin-top: 1.5rem;
+}
+.iconI {
+    font-size: 4rem;
+    color: $gold-finger;
+    height: auto;
+    margin: auto;
+    display: block;
 }
