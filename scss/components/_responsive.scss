@@ -6,7 +6,7 @@
     .navlist,
     .cart-icon,
     .sel,
-    // .img,
+    .img,
     .desktop-action .btn {
         display: none;
     }
@@ -85,6 +85,12 @@
     h2 {
         font-size: 3rem;
     }
+
+    .hero-section {
+        min-height: calc(100vh - 14vh);
+        padding: 6.25rem 1rem;
+    }
+
     /* SECTION 04 */
     .app-container {
         padding: 2.2rem;
@@ -102,10 +108,11 @@
         padding: 0.1rem 0.3rem;
         font-size: 0.8rem;
     }
+
     .search-bar button {
         background: $gold-finger;
         border: none;
-        padding: 0.8rem 0 0.8rem 0 ;
+        padding: 0.8rem 0 0.8rem 0;
     }
 
     .search-bar button i {
@@ -113,17 +120,47 @@
         color: $pure-white;
     }
 
+
+    // Service
+
     .service-cart {
-    flex: 1;
-    flex-basis: 155px;
-    height: 100%;
+        flex: 1;
+        flex-basis: 155px;
+        height: 100%;
     }
 
-    .bg-cart{
+    .bg-cart {
         height: 350px;
         padding: 1rem;
     }
-    .pd h3{
+
+    .heading3 {
         font-size: 2rem;
+    }
+
+    .top-cart {
+        flex: 1;
+        flex-basis: 150px;
+        height: 250px;
+    }
+
+    .top-img img {
+        width: 120px;
+    }
+
+    .top-img .gucci {
+        width: 120px;
+    }
+
+    .size-h2 {
+        font-size: 1.5rem;
+    }
+
+    .line a {
+        font-size: 1rem;
+    }
+
+    .mt-44 {
+        margin-top: .7rem;
     }
 }
