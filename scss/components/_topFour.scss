@@ -2,8 +2,9 @@
     // flex: 1;
     background: $pure-white;
     height: 500px;
+    width: 70%;
+    justify-self: center;
 }
-
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
