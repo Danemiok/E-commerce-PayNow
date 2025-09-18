@@ -1,16 +1,16 @@
 .top-cart {
-    // flex: 1;
     background: $pure-white;
     height: 500px;
-    width: 70%;
+    flex-basis: 400px;
     justify-self: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .top-img{
@@ -44,5 +44,5 @@
     font-size: 1rem;
 }
 .mt-44{
-    margin-top: 4rem;
+    margin: 4rem 5rem;
 }

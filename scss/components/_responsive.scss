@@ -122,7 +122,9 @@
 
 
     // Service
-
+    .iconI {
+        font-size: 3rem;
+    }
     .service-cart {
         flex: 1;
         flex-basis: 155px;
@@ -140,9 +142,10 @@
 
     .top-cart {
         flex: 1;
-        flex-basis: 150px;
+        flex-basis: 100px;
         height: 250px;
-        width: 85%;
+        
+
     }
 
     .top-img img {
@@ -162,6 +165,6 @@
     }
 
     .mt-44 {
-        margin-top: .7rem;
+        margin: 1rem .5rem;
     }
 }
