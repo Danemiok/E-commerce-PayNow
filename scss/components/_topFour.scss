@@ -4,6 +4,7 @@
     height: 500px;
     width: 70%;
     justify-self: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .grid {
     display: grid;
@@ -11,8 +12,19 @@
     align-items: center;
     justify-content: center;
 }
+
+.top-img{
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .top-img img{
+    object-fit: cover;
+    transition: 1s ease;
     width: 350px;
+}
+.top-img img:hover{
+    transform:scale(1.2) ;
 }
 .top-img .gucci{
     width: 300px;
