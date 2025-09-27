@@ -7,6 +7,8 @@
     .cart-icon,
     .sel,
     .img,
+    .search-bar,
+    .intext,
     .desktop-action .btn {
         display: none;
     }
@@ -34,10 +36,10 @@
         display: flex;
     }
 
-    .navbar-toggle {
+    .navbar-toggle,
+    .search {
         display: block;
         z-index: 999;
-
     }
 
     .navbar-toggle.active .bar:nth-child(2) {
@@ -99,27 +101,9 @@
     .app-container .content h2 {
         font-size: 3.5rem;
     }
-
-    .search-bar {
-        width: 10rem;
+    .search{
+        font-size: 1.3rem;
     }
-
-    .search-bar input {
-        padding: 0.1rem 0.3rem;
-        font-size: 0.8rem;
-    }
-
-    .search-bar button {
-        background: $gold-finger;
-        border: none;
-        padding: 0.8rem 0 0.8rem 0;
-    }
-
-    .search-bar button i {
-        font-size: 1rem;
-        color: $pure-white;
-    }
-
 
     // Service
     .iconI {

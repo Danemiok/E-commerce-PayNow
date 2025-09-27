@@ -1,0 +1,50 @@
+// Best seller
+
+.best-sellers  .best-cart img{
+    width: 15rem;
+}
+.best-sellers h3{
+    margin-bottom: 1rem;
+}
+
+.icon-cart {
+    color: $gold-finger;
+}
+
+.cart-best {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+// cart-js
+
+.cart-wrapper {
+    width: 100%;
+    margin: 0 60px 35px 0 ;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+.cart-list .cart-link:hover .cart-button {
+    color: #fff;
+    background: #5372f0;
+    transition: 0.3s ease;
+}
+
+.cart-wrapper .swiper-pagination-bullet {
+    background: #5372f0;
+    width: 13px;
+    height: 13px;
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+.cart-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.cart-wrapper .swiper-slide-button {
+    color: #5372f0;
+    margin-top: -35px;
+}
