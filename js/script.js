@@ -1,6 +1,6 @@
 new Swiper('.cart-wrapper', {
   loop: true,
-  spaceBetween: 10,
+  spaceBetween: 30,
 
   // Pagination BUTTONS
   pagination: {
