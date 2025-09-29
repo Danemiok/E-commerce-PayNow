@@ -1,0 +1,48 @@
+/* FOOTER STYLING */
+
+.footer-container{
+    margin-top: 10rem;
+    padding-block:4rem ;
+    background: $hint-yellow;
+}
+
+
+.footer-container .flex{
+    align-items: flex-start;
+}
+
+.footer-wrapper{
+    flex: 1;
+    flex-basis: 150px;
+}
+
+.footer-wrapper:nth-child(1){
+    flex: 2;
+    flex-basis: 300px;
+}
+
+.footer-wrapper .social-icon:hover{
+    background: $lead;
+    color: $pure-white;
+}
+
+.footer-link{
+    color: gray;
+    font-size: 1.1rem;
+    transition: .3s ease-in-out;
+}
+
+.footer-link:hover{
+    color:$lead;
+    text-decoration: underline;
+}
+
+.footericoncolor a {
+    background: $pure-white;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: $lead;
+}
