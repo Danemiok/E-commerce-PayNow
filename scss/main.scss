@@ -24,12 +24,16 @@
 // Footer
 @import 'components/footer';
 
+@import 'components/chanel';
+
 // Responsive
 
 @import 'components/responsive';
 
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;

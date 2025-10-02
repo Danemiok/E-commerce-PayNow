@@ -1,0 +1,26 @@
+.padding-top {
+    padding-top: 5rem;
+}
+
+.border-bt {
+    border-bottom: 2px solid gray;
+    padding-bottom: 1rem;
+}
+
+.upto {
+    font-size: 1.2rem;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+.flex-col span{
+    transition: all 0.5s ease;
+}
+.flex-col span:hover{
+    text-decoration: underline gray;
+}
+.chanel-img {
+    width: 13rem;
+    margin-top: 1rem;
+}

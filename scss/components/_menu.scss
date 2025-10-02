@@ -11,7 +11,14 @@
 .all-cart {
     width: 11rem;
 }
+
 .best-sellers  .all-cart img{
+    width: 100%;
+    transition: transform 0.3s ease;
+
+}
+.best-sellers  .all-cart img:hover{
+    transform: scale(1.1);
     width: 100%;
 }
 .best-sellers h3{
