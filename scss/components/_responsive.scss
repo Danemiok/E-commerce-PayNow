@@ -8,6 +8,8 @@
     .sel,
     .img,
     .search-bar,
+    .filter-section,
+    .select,
     .intext,
     .desktop-action .btn {
         display: none;
@@ -151,4 +153,59 @@
     .mt-44 {
         margin: 1rem .5rem;
     }
+
+    // Menu
+    .canter {
+        justify-content: center;
+    }
+
+    
+
+    .text-ct {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .font-size {
+         font-size: 1.2rem;
+    }
+    .all-cart  {
+        width: 8rem;
+    }
+    .gap-02 {
+        gap: 2rem;
+    }
+
+    .filter {
+        display: block;
+        z-index: 0;
+    }
+    .filter .filterby {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        border: 1px solid gray;
+        color: $lead;
+        padding: 4px 12px;
+    }
+    .fontFilter {
+        font-size: 1rem;
+        color: $lead;
+    }
+
+    .one-1 {
+        font-size: .9rem;
+        border: 1px solid gray;
+        width: 25px;
+        height: 25px;
+        background: $hint-yellow;
+        color: $lead;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 25px;
+
+        // border-radius: 50%;
+    }
+
+
+
 }
