@@ -103,7 +103,8 @@
     .app-container .content h2 {
         font-size: 3.5rem;
     }
-    .search{
+
+    .search {
         font-size: 1.3rem;
     }
 
@@ -111,6 +112,7 @@
     .iconI {
         font-size: 3rem;
     }
+
     .service-cart {
         flex: 1;
         flex-basis: 155px;
@@ -130,7 +132,7 @@
         flex: 1;
         flex-basis: 100px;
         height: 250px;
-        
+
 
     }
 
@@ -159,18 +161,21 @@
         justify-content: center;
     }
 
-    
+
 
     .text-ct {
         text-align: center;
         font-size: 1.2rem;
     }
+
     .font-size {
-         font-size: 1.2rem;
+        font-size: 1.2rem;
     }
-    .all-cart  {
+
+    .all-cart {
         width: 8rem;
     }
+
     .gap-02 {
         gap: 2rem;
     }
@@ -179,6 +184,7 @@
         display: block;
         z-index: 0;
     }
+
     .filter .filterby {
         display: flex;
         align-items: center;
@@ -187,6 +193,7 @@
         color: $lead;
         padding: 4px 12px;
     }
+
     .fontFilter {
         font-size: 1rem;
         color: $lead;
@@ -209,10 +216,11 @@
     // Chanel page
     .upto {
         font-size: 1rem;
-    } 
+    }
 
     // about page
-    .about-container , .about-con {
+    .about-container,
+    .about-con {
         margin: 1.5rem 1rem;
     }
 
@@ -224,4 +232,10 @@
         width: 50%;
         margin-top: 2rem;
     }
+
+    .container {
+        flex-direction: column;
+    }
+
+
 }
